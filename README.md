@@ -1,1 +1,1 @@
-My Amazing webpage!!!
+Amazing web page
