@@ -1,0 +1,378 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+header {
+  background-image: url(images/headphones_hero_1.jpg);
+  width: 100%;
+  height: 800px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mainmenu {
+  display: none;
+}
+nav {
+  width: 85%;
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logoc {
+  gap: 9px;
+  display: flex;
+  margin-left: 110px;
+}
+.logo {
+  margin: auto;
+  width: 140px;
+  margin-top: -10px;
+}
+
+.menu {
+  display: flex; /* Align items in a row */
+  justify-content: center; /* Center the items horizontally */
+  list-style: none; /* Remove default list bullets */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+.menu li {
+  margin: 0 30px; /* Space between each menu item */
+}
+.menu a {
+  text-decoration: none; /* Remove underline from links */
+  color: rgba(255, 255, 255, 1); /* Text color */
+  font-size: 12px; /* Font size */
+  font-weight: 900; /* Font weight */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+a:hover {
+  color: #ff6565;
+}
+
+.txt1 {
+  margin-top: -430px;
+  font-family: Source Sans Pro;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40.22px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.txt2 {
+  margin-top: -30px;
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.11px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.btn1 {
+  margin: auto; /* Centers the button horizontally */
+  width: 162px;
+  height: 44px;
+  border-radius: 22px;
+  background: #ff6565;
+  box-shadow: 0px 2px 20px 0px #00000080;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.6px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  display: block; /* Ensures the margin auto works */
+  cursor: pointer;
+  margin-bottom: 65px;
+  margin-top: 40px;
+}
+
+.btn1:hover {
+  opacity: 0.9;
+}
+.txt3 {
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+}
+.container {
+  display: flex;
+  gap: 0px;
+  text-align: center;
+  align-content: center;
+  justify-content: space-around;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+.wtxt1 {
+  font-family: Source Sans Pro;
+  font-size: 32px;
+  line-height: 37.5px;
+  text-align: center;
+  margin-top: 200px;
+}
+.wtxt2 {
+  margin-top: 50px;
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.box1 {
+  display: inline-block;
+  margin: 5px; /* Adds space between each box */
+  width: 165px; /* Adjust width based on your needs */
+  text-align: center; /* Optional: centers text within each box */
+  margin-bottom: 50px;
+}
+
+.bimg {
+  margin-bottom: 0px;
+  width: 90px;
+  height: 75px;
+  top: 0.02px;
+  left: 56px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.boxtxt1 {
+  font-family: Source Sans Pro;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+}
+.boxtxt2 {
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+.our-result {
+  background-image: url(images/headphones_hero_2.jpg);
+  width: 100%;
+  height: 650px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.rcontainer {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  margin-left: 210px;
+  margin-right: 210px;
+  text-align: center;
+  margin-top: 50px;
+}
+.box2 {
+  display: inline-block;
+  margin: 5px; /* Adds space between each box */
+  width: 165px; /* Adjust width based on your needs */
+  text-align: center; /* Optional: centers text within each box */
+  margin-bottom: 50px;
+}
+.rtxt1 {
+  padding-top: 140px;
+  font-family: Source Sans Pro;
+  font-size: 32px;
+  line-height: 37.5px;
+  text-align: center;
+  color: #ffffff;
+}
+.rtxt2 {
+  padding-top: 10px;
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+}
+.rimg {
+  width: 190px;
+  height: 190px;
+  top: 381px;
+  left: 207px;
+  gap: 0px;
+  opacity: 0px;
+}
+.btext1 {
+  margin-top: -110px;
+  font-family: Source Sans Pro;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 20px;
+}
+.btext2 {
+  margin-top: -30px;
+  margin-left: 20px;
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media (max-width: 465px) {
+  .mainmenu {
+    display: inline;
+    margin: 0px, 10px;
+  }
+  nav {
+    position: relative; /* Ensure that the dropdown menu is positioned relative to the nav */
+  }
+
+  .menu {
+    display: none; /* Initially hide the dropdown menu */
+    position: absolute; /* Position the dropdown relative to the nav */
+    top: 100%; /* Position it just below the menu image */
+    left: 140px; /* Align to the left edge */
+    padding: 10px;
+    list-style-type: none;
+  }
+  li {
+    margin-top: 400px;
+  }
+  .mainmenu:hover ~ .menu {
+    display: block;
+    margin: auto;
+  }
+  nav:hover .menu {
+    display: block;
+  }
+  .logo {
+    margin: auto;
+    margin-left: -250px;
+  }
+
+  header {
+    width: 100%;
+    background-size: cover;
+    background-size: 395%;
+    background-position: top;
+    background-position-x: -400px;
+    background-position-y: -50px;
+    height: 869px;
+  }
+
+  .txt1 {
+    margin-top: -540px;
+    padding: 0 40px;
+  }
+  .txt2 {
+    padding: 0 70px;
+  }
+  .btn1 {
+    margin: auto;
+
+    margin-bottom: 70px;
+  }
+  .txt3 {
+    padding: 0 30px;
+  }
+  .txt1,
+  .txt2,
+  .txt3 {
+    overflow-wrap: break-word;
+  }
+  .wtxt2 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .container {
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    gap: 5px;
+    margin-top: 100px;
+  }
+  .box1 {
+    margin-bottom: 35px;
+    margin-top: 0px;
+  }
+  .our-result {
+    width: 375px;
+    height: 1491px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .rcontainer {
+    flex-wrap: wrap;
+    margin-left: 85px;
+  }
+  .rtxt2 {
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+}
+@media (min-width: 760px) and (max-width: 1024px) {
+  header {
+    background-position-x: -320px;
+    background-position-y: -15;
+  }
+  .logoc {
+    gap: 9px;
+    display: flex;
+    margin-left: 0px;
+  }
+  nav {
+    font-size: 12px;
+  }
+  li {
+    white-space: nowrap;
+  }
+  .container {
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    gap: 25px;
+    margin-top: 100px;
+  }
+  .box1 {
+    margin-bottom: 35px;
+    margin-top: 0px;
+  }
+  .our-result {
+    height: 920px;
+    background-position-y: -70px;
+  }
+  .rcontainer {
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    gap: 45px;
+    margin-top: -190px;
+    margin-left: 130px;
+    margin-right: 170px;
+    height: 876px;
+    margin-bottom: 30px;
+  }
+  .box2 {
+    margin-bottom: 9px;
+    margin-top: 0px;
+  }
+  .rtxt1 {
+    padding-top: 160px;
+  }
+}
+@media only screen and (width: 1024px) {
+  .rcontainer {
+    margin-top: 120px;
+    flex-wrap: nowrap;
+    margin-left: 30px;
+    margin-right: 50px;
+  }
+}
