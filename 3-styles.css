@@ -232,6 +232,67 @@ a:hover {
   color: #ffffff;
 }
 
+.ctext1 {
+  margin-top: 90px;
+  margin-bottom: 100px;
+  font-family: Source Sans Pro;
+  font-size: 32px;
+  line-height: 37.5px;
+  text-align: center;
+}
+.itext {
+  width: 335px;
+  height: 29px;
+  top: 244px;
+  gap: 0px;
+  opacity: 0px;
+  margin: auto;
+  font-weight: bold;
+  color: black;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column; /* Ensures inputs stack vertically */
+  justify-content: center; /* Centers content vertically */
+  align-items: center; /* Centers content horizontally */
+  height: 100px; /* Full viewport height to allow vertical centering */
+  width: 1440px; /* Full viewport width to allow horizontal centering */
+  margin-bottom: 40px; /* Reset any margin that might interfere */
+}
+.input-container {
+  margin-bottom: 40px;
+}
+
+.ibutton {
+  border: none;
+  font-family: Source Sans Pro;
+  color: #ffffff;
+  background-color: #ff6565;
+  border-radius: 22px;
+  display: block;
+  width: 162px;
+  height: 44px;
+  top: 329px;
+  left: 86px;
+  gap: 0px;
+  opacity: 0px;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 150px;
+}
+.itext {
+  width: 335px;
+  height: 29px;
+  border: none; /* Removes all borders */
+  border-bottom: 2px solid black; /* Adds only a bottom border */
+  outline: none; /* Removes the outline on focus */
+  padding: 5px;
+}
+
+/* Optional: Add focus style to change color of bottom border when input is focused */
+.itext:focus {
+  border-bottom: 2px solid blue; /* Changes border color on focus */
+}
 @media (max-width: 465px) {
   .mainmenu {
     display: inline;
@@ -321,6 +382,20 @@ a:hover {
     padding-left: 19px;
     padding-right: 19px;
   }
+  .wrapper {
+    display: flex;
+    flex-direction: column; /* Ensures inputs stack vertically */
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    height: 100px; /* Full viewport height to allow vertical centering */
+    width: 400px; /* Full viewport width to allow horizontal centering */
+    margin-bottom: 100px; /* Reset any margin that might interfere */
+    margin-left: 2px;
+  }
+  .itext {
+    height: 29px;
+    width: 335px;
+  }
 }
 @media (min-width: 760px) and (max-width: 1024px) {
   header {
@@ -367,6 +442,19 @@ a:hover {
   .rtxt1 {
     padding-top: 160px;
   }
+  .wrapper {
+    display: flex;
+    flex-direction: column; /* Ensures inputs stack vertically */
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    height: 100px; /* Full viewport height to allow vertical centering */
+    width: 720px; /* Full viewport width to allow horizontal centering */
+    margin-bottom: 100px; /* Reset any margin that might interfere */
+    margin-left: 2px;
+  }
+  .ctext1 {
+    margin-top: 50px;
+  }
 }
 @media only screen and (width: 1024px) {
   .rcontainer {
@@ -374,5 +462,15 @@ a:hover {
     flex-wrap: nowrap;
     margin-left: 30px;
     margin-right: 50px;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column; /* Ensures inputs stack vertically */
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    height: 105px; /* Full viewport height to allow vertical centering */
+    width: 1005px; /* Full viewport width to allow horizontal centering */
+    margin-bottom: 100px; /* Reset any margin that might interfere */
+    margin-left: 2px;
   }
 }
